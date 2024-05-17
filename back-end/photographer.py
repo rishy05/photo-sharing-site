@@ -30,6 +30,7 @@ def cut_photograph_opt():
 
 
 def cut_photograph():
+
     for k in os.listdir("photograph_up_temp"):
         resp = RetinaFace.detect_faces(f"photograph_up_temp/{str(k)}")
         face_coor = []
