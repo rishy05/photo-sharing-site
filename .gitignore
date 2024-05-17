@@ -1,0 +1,69 @@
+# Ignore JPEG and JPG image files
+back-end/*.jpg
+back-end/*.jpeg
+
+# Ignore specific directories and their contents
+back-end/people
+back-end/people_temp
+back-end/photograph_up
+back-end/photograph_up_temp
+back-end/test
+
+# Ignore JSON files
+back-end/*.json
+
+# Ignore __pycache__ directories
+back-end/__pycache__/
+
+# Ignore 'face' directory
+back-end/face/
+
+# Ignore 'venv' directory
+back-end/venv/
+
+
+# Ignore JPEG and JPG image files in back-end
+back-end/*.jpg
+back-end/*.jpeg
+
+# Ignore specific directories and their contents in back-end
+back-end/people
+back-end/people_temp
+back-end/photograph_up
+back-end/photograph_up_temp
+back-end/test
+
+# Ignore JSON files in back-end
+back-end/*.json
+
+# Ignore __pycache__ directories in back-end
+back-end/__pycache__/
+
+# Ignore 'face' directory in back-end
+back-end/face/
+
+# Ignore 'venv' directory in back-end
+back-end/venv/
+
+# Ignore node_modules and PnP files in front-end
+front-end/node_modules
+front-end/.pnp
+front-end/.pnp.js
+
+# Ignore testing coverage directory in front-end
+front-end/coverage
+
+# Ignore production build directory in front-end
+front-end/build
+
+# Ignore miscellaneous system and environment files in front-end
+front-end/.DS_Store
+front-end/.env.local
+front-end/.env.development.local
+front-end/.env.test.local
+front-end/.env.production.local
+
+# Ignore debug and error log files in front-end
+front-end/npm-debug.log*
+front-end/yarn-debug.log*
+front-end/yarn-error.log*
